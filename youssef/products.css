@@ -1,0 +1,150 @@
+p {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+div {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(white,green) ;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 100;
+}
+
+.products-class {
+    margin-top: 130px;
+    margin-left: 650px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(2, 2, 2);
+    background-color: (5, 206, 5);
+    width: 843px;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.products-class span {
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 650px;
+    margin-right: 410px;
+}
+
+.products-preview {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.16);
+    padding-bottom: 10px;
+    height: auto;
+    box-shadow: 5px 5px 5px 0 black;
+    background-color: white;
+}
+
+.img {
+    width: auto;
+    height: inherit;
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+.product-info {
+    margin-top: 6px;
+    margin-left: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name a {
+    font-family: "Open sans", sans-serif;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.15s;
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+}
+
+.product-name a:hover {
+    color: rgb(5, 185, 5);
+}
+
+.price-details {
+    display: flex;
+}
+
+.product-price {
+    width: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    width: fit-content;
+    color: gray;
+    display: inline-block;
+    margin-bottom:  13px;
+
+}
+
+.product-details {
+    display: inline-block;
+    width: fit-content;
+    margin-right: 20px;
+}
+.product-details a{
+    width: 20px;
+}
+
+.price-details {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-button {
+    padding: 8px 15px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: green;
+    transition: background-color 0.15s;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.details-button:active {
+    background-color: rgb(11, 230, 11);
+    color: white;
+}
+

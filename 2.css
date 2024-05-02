@@ -1,0 +1,135 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 20%;
+        align-items: center;
+        background-color: #eeee;
+        z-index: 1;
+        /* overflow: hidden; */
+    }
+    
+    #nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        list-style: none;
+        padding-right: 400px;
+    }
+    
+    #nav ul li a {
+        padding: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #nav ul li :hover {
+        color: green;
+    }
+    
+    .imag {
+        mix-blend-mode: multiply;
+        filter:contrast(2);
+        height: 200px;
+        width: 200px;
+        padding-left: 50px;
+        opacity: .7;
+      
+    }
+    
+    .searchIcon {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 1100px;
+    }
+    
+     #searchBar {
+        display: none;
+    } 
+    
+    #searchBar.active {
+        display: block;
+        transform: translateX(-50px);
+        margin-top: 0px; ;
+        
+    }
+     
+    #section {
+        height: 85%;
+        background-image: linear-gradient(to bottom, #eee, green);
+        overflow: hidden;
+    }
+    
+    .chair {
+        height: 60%;
+        position: relative;
+        top: 40px;
+        left: 60px;
+    }
+    
+    #p1 {
+        position: relative;
+        bottom: 200px;
+        left: 425px;
+        font-size: 70px;
+    }
+    
+    #p2 {
+        position: relative;
+        bottom: 200px;
+        left: 450px;
+        font-size: 65px;
+    }
+    
+    #butt {
+        font-size: 15px;
+        width: 200px;
+        border: none;
+        height: 36px;
+        position: relative;
+        bottom: 180px;
+        left: 580px;
+        font-weight: bold;
+        background: white;
+        color: #388b6f;
+        letter-spacing: 1px;
+        border: 2px soild 388b6f;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #butt:hover {
+       background-color: #388b6f;
+       color: white;
+    }
+    #drop div a{
+        display: block;
+        text-decoration: none;
+        color: black;
+       padding: 10px 15px;
+    }
+   #drop div{
+    display: none;
+    background-color: #388b6f;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, .8);
+   }
+   #drop:hover div{
+    margin-top: 7px;
+    display: block;
+   }
+   #drop:hover{
+
+      margin-top: 100px;
+
+   }
+   .todrop a:hover{
+    background-color: #eee;
+   }

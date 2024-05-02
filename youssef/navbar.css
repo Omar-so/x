@@ -1,0 +1,51 @@
+.nav-bar {
+  position: absolute;
+  top: 390px;
+  left: 240px;
+  width: 300px;
+}
+
+.shopping-option {
+  font-weight: 700;
+  font-size: 25px;
+  position: relative;
+  width: fit-content;
+}
+.shopping-option::before{
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  background-color: blue;
+}
+.type{
+  width: fit-content;
+  margin-top: 20px;
+  font-size: 20px;
+  position: relative;
+}
+.type::before{
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  background-color: blue;
+}
+.categorys{
+  display: flex;
+  margin: 15px 5px;
+  flex-direction: column;
+  gap: 10px;
+}
+.categorys a {
+  color: rgb(10, 10, 204);
+  text-decoration: none;
+  width: fit-content;
+}
+.categorys a:hover{
+  color:red;
+}

@@ -1,0 +1,57 @@
+html{
+    margin: 0%;
+  }
+  div{
+    margin: 0%;
+    background-image: linear-gradient(to bottom,gray,white);
+  }
+  body{
+    margin : 0%;
+  }
+  p{
+    margin: 0%;
+    width: 50%;  
+  font-size: 30px;
+  }
+  img{
+      width: 600px;
+      height: 400px;
+      margin: left ;
+    }
+  
+  table{
+      width: 300px;
+   
+  }
+  caption{
+      border: spacing 100px;
+  }
+  .photo{
+      position: absolute;
+      left: 600px;
+      bottom: 100px;
+  }
+  .buy{
+    text-align: center;
+    font-size: larger;
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    background: gray;
+    border-radius: 40px;
+  
+  }
+  a{
+    position: relative;
+    top: 13px;
+     border: none;
+     font-size: larger;
+     color: black;
+     outline: none;
+  
+  }
+  h3{
+   text-decoration-line: underline;
+  }

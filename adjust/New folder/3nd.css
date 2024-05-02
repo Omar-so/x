@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #eeee;
+    overflow: hidden;
+}
+
+#boss {
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+
+#img {
+    position: relative;
+    bottom: 60px;
+    right: 160px;
+    height: 360px;
+    width: 360px;
+}
+
+#rest {
+    border: none;
+    padding: 20px; 
+    position: relative;
+    bottom:55px;
+    right:50px ;
+    background-color: rgb(249, 249, 249);
+}
+
+#rest h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px; 
+    font-weight: normal;
+  
+}
+
+#rest h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px; 
+   
+}
+
+#rest p {
+    font-size: 20px;
+    margin-bottom: 18px; 
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+}
+
+.checker {
+    margin-top: 10px;
+}
+
+#rest button {
+    display: block;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px; 
+    border: 0.5px solid;
+    border-width: 1px;
+    margin: 10px auto; 
+    position: relative;
+    top: 20px;
+   font-size: 20px;
+   border-radius: 5px;
+   background-color: aliceblue;
+}
+#rest button:hover{
+    background-color: green;
+}
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+
+.footer-content p {
+    margin: 0; 
+}
